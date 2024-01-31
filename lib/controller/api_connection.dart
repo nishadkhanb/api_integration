@@ -7,6 +7,8 @@ import 'package:http/http.dart' as http;
 
 class APIConnection{
 
+  String ab = 'asd';
+
    Future<List<ProductsModel>> fetchProducts()async{
      final response = await http.get(Uri.parse('https://fakestoreapi.com/products'));
 
